@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+    <head>
+        <title>${title}</title>
+        <meta name="google" value="notranslate" />         
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css" media="screen">
+            html, body  { height:100%; }
+            body { margin:0; padding:0; overflow:auto; text-align:center; 
+                   background-color: ${bgcolor}; }   
+            object:focus { outline:none; }
+            #flashContent { display:none; width:100px; height: 100px; }
+        </style>
+        
+
+        <script type="text/javascript" src="js/tb.course.audio.js"></script>
+        <script type="text/javascript " src="swfobject.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="flashContent">
+            ${swf}
+        </div>
+
+        <input type="button" name="load" value="load" onclick="javascript:audio.load('http://cs4825.userapi.com/u227567/audios/3983372f6526.mp3')"/>
+        <input type="button" name="play" value="play" onclick="javascript:audio.call('play')"/>
+        <input type="button" name="pause" value="pause" onclick="javascript:audio.call('pause')"/>
+   </body>
+</html>
