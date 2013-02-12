@@ -7,6 +7,15 @@ document.addEventListener("DOMContentLoaded", function () {
         node: document.getElementById("flashContent")
     });
 
+    audio.onPause = function(e){
+        console.log('pause');
+    };
+
+    audio.onPlay = function(e){
+        console.log('play');
+    };
+
+
     audio.create({
         url:"CourseViewPlayer.swf",
         width:32,

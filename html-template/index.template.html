@@ -21,10 +21,11 @@
     <body>
         <div id="flashContent">
             ${swf}
+            <div id='audio'></div>
         </div>
 
         <input type="button" name="load" value="load" onclick="javascript:audio.load('http://cs4825.userapi.com/u227567/audios/3983372f6526.mp3')"/>
-        <input type="button" name="play" value="play" onclick="javascript:audio.call('play')"/>
-        <input type="button" name="pause" value="pause" onclick="javascript:audio.call('pause')"/>
+        <input type="button" name="play" value="play" onclick="javascript:audio.play()"/>
+        <input type="button" name="pause" value="pause" onclick="javascript:audio.pause()"/>
    </body>
 </html>

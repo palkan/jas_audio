@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="CourseViewPlayer">
     <configurations>
-      <configuration name="CourseViewPlayer" main-class="CourseViewPlayer" output-file="CourseViewPlayer.swf" output-folder="$MODULE_DIR$/../../php/dev2.teachbase/app/course_player" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
+      <configuration name="CourseViewPlayer" main-class="CourseViewPlayer" output-file="CourseViewPlayer.swf" output-folder="$MODULE_DIR$/../../php/dev2.teachbase/libs/course_player" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="11.4">
           <entries>
             <entry library-id="8e1887ac-64bc-4899-8bb8-7702da88b7d0">
